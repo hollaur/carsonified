@@ -1,0 +1,54 @@
+p, ul {
+	margin-bottom: 0.75em;
+}
+
+p:last-child, ul:last-child {
+	margin-bottom: 1em;
+}
+
+li {
+	background: url('../images/bolt.png') 0 5px no-repeat; 
+	padding-left: 20px;
+}
+
+a {
+	color: #822060;
+	text-decoration: none;
+	border-bottom: 1px dotted #c2b3bc;
+}
+
+a:hover {
+	color: #6c024d;
+	border-bottom: 1px dotted #6c024d;
+}
+
+mark {
+	background-color: #fbfbc7;
+}
+
+body {
+	font-family: 'CrimsonText', 'Palatino Linotype', 'Georgia', serif;
+	font-size: 18px;
+	line-height: 24px;
+	color: #28283c;
+	padding: 20px;
+}
+
+h1 {
+	font-size: 27px;
+	line-height: 30px;
+	margin-bottom: 1em;
+}
+
+h2 {
+	font-size: 22px;
+	margin-bottom: 0.75em;
+}
+
+.note {
+	display: none;
+}
+
+#hello {
+	margin-bottom: 30px;
+}

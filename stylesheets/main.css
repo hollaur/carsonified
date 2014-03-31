@@ -1,0 +1,255 @@
+@font-face {
+	font-family: 'CrimsonText';
+	src: url('../fonts/crimson_text_roman-webfont.eot');
+	src: local('☺'), url('../fonts/crimson_text_roman-webfont.woff') format('woff'), url('../fonts/crimson_text_roman-webfont.ttf') format('truetype'), url('../fonts/crimson_text_roman-webfont.svg#webfontgwMrLhqe') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'CrimsonText';
+	src: url('../fonts/crimson_text_italic-webfont.eot');
+	src: local('☺'), url('../fonts/crimson_text_italic-webfont.woff') format('woff'), url('../fonts/crimson_text_italic-webfont.ttf') format('truetype'), url('../fonts/crimson_text_italic-webfont.svg#webfont0FwRk1Kk') format('svg');
+	font-weight: normal;
+	font-style: italic;
+}
+
+p {
+	text-align: justify;
+}
+
+p, ul {
+	margin-bottom: 0.75em;
+}
+
+p:last-child, ul:last-child {
+	margin-bottom: 0;
+}
+
+li {
+	background: url('../images/bolt.png') 0 5px no-repeat; 
+	padding-left: 20px;
+}
+
+a {
+	color: #822060;
+	text-decoration: none;
+	border-bottom: 1px dotted #c2b3bc;
+}
+
+a:hover {
+	color: #6c024d;
+	border-bottom: 1px dotted #6c024d;
+}
+
+::selection {
+	background-color: #822060;
+	color: #fff;
+}
+
+::-moz-selection { 
+	background-color: #822060;
+	color: #fff;
+}
+
+mark {
+	background-color: #fbfbc7;
+}
+
+body {
+	font-family: 'CrimsonText', 'Palatino Linotype', 'Georgia', serif;
+	font-size: 18px;
+	line-height: 24px;
+	background: #c2b3bc url('../images/bg_body.gif');
+	color: #28283c;
+}
+
+#hello { 
+	background: #fff; 
+}
+
+#hello div {
+	width: 520px;
+	margin: 0 auto;
+	padding: 80px;
+}
+
+#hello p {
+	text-align: center;
+}
+
+#wrapper {
+	width: 100%;
+	background: url('../images/bg_wrapper.jpg') top center no-repeat;
+	border-top: 3px solid #28283c;
+}
+
+#subwrapper {
+	width: 840px;
+	margin: 0 auto;
+	background: url('../images/bg_subwrapper.png');
+	border: 2px solid #fff;
+	padding: 40px;
+	overflow: hidden;
+}
+
+header {
+	width: 924px;
+	margin: 0 auto;
+	padding: 70px 0 200px 0;
+}
+
+h1 {
+	display: block;
+	width: 927px;
+	height: 0;
+	padding-top: 126px;
+	overflow: hidden;
+	background: url('../images/bg_h1.png') no-repeat;
+}
+
+section {
+	width: 440px;
+	float: right;
+	padding: 20px 0;
+}
+
+section h2 {
+	display: block;
+	width: 240px;
+	height: 0;
+	padding-top: 19px;
+	overflow: hidden;
+	float: left;
+	margin-left: -280px; /* 240 + 40 margin */
+	text-align: right;
+	background-repeat: no-repeat;
+	background-position: top right;
+}
+
+#intro h2 {
+	background-image: url('../images/bg_h2_intro.png');
+}
+
+#intro p.leading .dropped {
+	float: left;
+	display: block;
+	width: 54px;
+	height: 0;
+	padding-top: 42px;
+	overflow: hidden;
+	background: url('../images/bg_letter.png') no-repeat;
+	margin-right: 7px;
+	margin-top: 1px;
+}
+
+#intro p.leading:first-line {
+	font-variant: small-caps;
+	font-size: 1.05em;
+}
+
+#intro p.illustration {
+	display: block;
+	float: left;
+	margin: -100px 0 0 -400px;
+}
+
+#skills h2 {
+	background-image: url('../images/bg_h2_skills.png');
+}
+
+#craft h2 {
+	background-image: url('../images/bg_h2_craft.png');
+}
+
+#highlights {
+	float: left;
+	width: 820px;
+	margin-left: -380px;
+}
+
+#highlights  ul {
+	margin: 25px 0;
+}
+
+#highlights li {
+	position: relative;
+	display: block;
+	width: 180px;
+	float: left;
+	font-size: 0.75em;
+	padding: 0;
+	background-image: none;
+	margin: 0 25px 1.25em 0;
+}
+
+#highlights span {
+	position: absolute;
+	display: block;
+	background: url('../images/bg_highlight.png') 0 0 no-repeat;
+	width: 180px;
+	height: 200px;
+}
+
+#highlights span:hover {
+	background-position: -180px 0;
+}
+
+#highlights p {
+	text-align: center;
+}
+
+#takeaway h2 {
+	background-image: url('../images/bg_h2_takeaway.png');
+	margin-top: 7px;
+}
+
+#takeaway p.illustration {
+	display: block;
+	float: left;
+	margin-left: -450px;
+	margin-bottom: 0;
+}
+
+#takeaway p.leading {
+	color: #392c52;
+	font-size: 1.5em;
+	line-height: 30px;
+}
+
+#takeaway p:last-child {
+	font-size: 2.4em;
+	margin-top: 1em;
+}
+
+
+.hasnote {
+	background: url('../images/bg_hasnote.png') top right no-repeat;
+	padding-right: 15px;
+	position: relative;
+	border-bottom: 1px dotted #28283c;
+}
+
+.hasnote .note {
+	display: none;
+}
+
+.hasnote:hover .note {
+	display: inline-block;
+	float: left;
+	position: absolute;
+	top: -30px;
+	left: -75px;
+	width: 160px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	padding: 2px;
+	font-size: 0.75em;
+	text-align: center;
+	font-style: italic;
+	color: #fff;
+	text-shadow: #000 1px 1px 0;
+	background: url('../images/starwars.jpg') center center;
+}
+
